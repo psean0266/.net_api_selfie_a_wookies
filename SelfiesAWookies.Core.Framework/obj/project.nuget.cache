@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6F+XMOwxdtRBTdzM7HGqv81yN03rfZJnIaNCQS8j16eGUxYSB4zM/ETpsD1n1xpEhHsp+eY2nHjVa1gJZtvQXA==",
+  "dgSpecHash": "ckrm2EP+I1gh83tGNegNmtbn3aPAP7X4XMp7iTYPBEMNBSe9OENrEsTo+0oENbnP3A/DPHEFTT0Lk9y05TtHyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AbdoulayePangnonKOUL\\source\\repos\\SelfieAWookie.API.UI\\SelfiesAWookies.Core.Framework\\SelfiesAWookies.Core.Framework.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace SelfieAWookies.Core.Selfies.Migrations.Migrations
+namespace SelfieAWookies.Core.Selfies.Infrastructures.Migrations
 {
     /// <inheritdoc />
     public partial class InitDatabase : Migration
