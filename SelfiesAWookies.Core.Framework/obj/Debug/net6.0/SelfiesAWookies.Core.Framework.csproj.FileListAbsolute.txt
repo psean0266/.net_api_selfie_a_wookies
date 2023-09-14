@@ -1,0 +1,12 @@
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\bin\Debug\net6.0\SelfiesAWookies.Core.Framework.deps.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\bin\Debug\net6.0\SelfiesAWookies.Core.Framework.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\bin\Debug\net6.0\SelfiesAWookies.Core.Framework.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.csproj.AssemblyReference.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.AssemblyInfoInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.AssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.csproj.CoreCompileInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\refint\SelfiesAWookies.Core.Framework.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\SelfiesAWookies.Core.Framework.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfiesAWookies.Core.Framework\obj\Debug\net6.0\ref\SelfiesAWookies.Core.Framework.dll

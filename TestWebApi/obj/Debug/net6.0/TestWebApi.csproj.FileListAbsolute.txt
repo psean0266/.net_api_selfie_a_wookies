@@ -1,0 +1,6 @@
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\obj\Debug\net6.0\TestWebApi.csproj.AssemblyReference.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\obj\Debug\net6.0\TestWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\obj\Debug\net6.0\TestWebApi.AssemblyInfoInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\obj\Debug\net6.0\TestWebApi.AssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\TestWebApi\obj\Debug\net6.0\TestWebApi.csproj.CoreCompileInputs.cache
