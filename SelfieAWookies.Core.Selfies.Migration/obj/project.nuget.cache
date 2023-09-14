@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M7tnY8TUrKgXl09+4AqqHwrBrxY7IXxJZgzLusS10HNtGlrmVa9aW7FwfdTagwMDnQBPnx/3IiWXqvTRB9YaZQ==",
+  "dgSpecHash": "+1lvxD/wySFclYijwOAKKk/PCxUHsNXO+hCiVmf1cj90dq00jNVnf+f1l2kvJhNQB+Bx8uK2xOQ2Beogy8eC6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\AbdoulayePangnonKOUL\\source\\repos\\SelfieAWookie.API.UI\\SelfieAWookies.Core.Selfies.Migration\\SelfieAWookies.Core.Selfies.Migrations.csproj",
   "expectedPackageFiles": [
@@ -74,9 +74,9 @@
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

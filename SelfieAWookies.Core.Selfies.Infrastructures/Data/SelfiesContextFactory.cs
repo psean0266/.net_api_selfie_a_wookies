@@ -30,9 +30,10 @@ namespace SelfieAWookies.Core.Selfies.Infrastructures.Data
 
             DbContextOptionsBuilder<SelfiesContext> builder = new DbContextOptionsBuilder<SelfiesContext>();
 
-            builder.UseSqlServer(configurationRoot.GetConnectionString("SelfiesDataBase"), b => b.MigrationsAssembly("SelfieAWookies.Core.Selfies.Migrations"));
+          //  builder.UseSqlServer(configurationRoot.GetConnectionString("SelfiesDataBase"), b => b.MigrationsAssembly("SelfieAWookies.Core.Selfies.Migrations"));
 
-            SelfiesContext context = new SelfiesContext(builder.Options);
+            builder.UseSqlServer(configurationRoot.GetConnectionString("SelfiesDataBase"));
+            SelfiesContext context = new SelfiesContext(builder.Options);                                             
 
             return context;
         }

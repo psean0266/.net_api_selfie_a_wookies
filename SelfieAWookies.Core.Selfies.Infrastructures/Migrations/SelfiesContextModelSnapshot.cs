@@ -2,20 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SelfieAWookies.Core.Selfies.Infrastructures.Data;
 
 #nullable disable
 
-namespace SelfieAWookies.Core.Selfies.Migrations.Migrations
+namespace SelfieAWookies.Core.Selfies.Infrastructures.Migrations
 {
     [DbContext(typeof(SelfiesContext))]
-    [Migration("20230913092008_InitDatabase")]
-    partial class InitDatabase
+    partial class SelfiesContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
