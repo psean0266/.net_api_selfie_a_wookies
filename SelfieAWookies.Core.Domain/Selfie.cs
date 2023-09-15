@@ -7,6 +7,8 @@ namespace SelfieAWookies.Core.Domain
         #region properties
         public int Id { get; set; }
         public string Title { get; set; }
+        public DateTime CreationDate { get; set; }
+        public string Description { get; set; }
         public string? ImagePath { get; set; }
         public int WookieId { get; set; }
         public Wookie Wookie{ get; set; }   

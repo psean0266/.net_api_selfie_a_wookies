@@ -792,16 +792,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "SelfieAWookies.Core.Selfies.Domain": "1.0.0",
-          "SelfieAWookies.Core.Selfies.Migrations": "1.0.0",
           "SelfiesAWookies.Core.Framework": "1.0.0"
         },
         "runtime": {
           "SelfieAWookies.Core.Selfies.Infrastructures.dll": {}
-        }
-      },
-      "SelfieAWookies.Core.Selfies.Migrations/1.0.0": {
-        "runtime": {
-          "SelfieAWookies.Core.Selfies.Migrations.dll": {}
         }
       },
       "SelfiesAWookies.Core.Framework/1.0.0": {
@@ -1348,11 +1342,6 @@
       "sha512": ""
     },
     "SelfieAWookies.Core.Selfies.Infrastructures/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SelfieAWookies.Core.Selfies.Migrations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
