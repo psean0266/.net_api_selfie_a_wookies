@@ -10,7 +10,8 @@ namespace SelfieAWookies.Core.Domain
     public class Wookie
     {
         public int Id { get; set; }
-     // Prémière méthode   [JsonIgnore]
+        public string Name { get; set; }
+        // Prémière méthode   [JsonIgnore]
         public List<Selfie> Selfies { get; set; }
     }
 }

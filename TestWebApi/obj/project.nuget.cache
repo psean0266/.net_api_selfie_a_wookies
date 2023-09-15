@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o3rbGrTrb3PUA2zgsxsblrdsIys1xXtl5rlgLykwsVM6n4fmaHMRDPk2mPMHA8P3MtWPdzUjDY2NXVcqae6TJQ==",
+  "dgSpecHash": "Jx2+dVAGDDo88RAcsRMrIr0H/nD8vFnDk4BkV6uT3zsZQlfFf906zsYAXIkgM+K4yH/6VCh4grngPHdAJ6nuWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\AbdoulayePangnonKOUL\\source\\repos\\SelfieAWookie.API.UI\\TestWebApi\\TestWebApi.csproj",
   "expectedPackageFiles": [
@@ -159,9 +159,9 @@
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\AbdoulayePangnonKOUL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }
