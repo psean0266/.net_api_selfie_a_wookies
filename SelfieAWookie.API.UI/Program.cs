@@ -42,7 +42,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.UseRouting();
-app.UseCors(SecurityMethods.DEFAULT_POLICY);
+app.UseCors(SecurityMethods.DEFAULT_POLICY_2);
 
 app.MapControllers();
 
