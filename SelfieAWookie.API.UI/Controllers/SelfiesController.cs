@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SelfieAWookie.API.UI.Application.DTOs;
+using SelfieAWookie.API.UI.ExtensionMethods;
 using SelfieAWookies.Core.Domain;
 using SelfieAWookies.Core.Selfies.Domain;
 using SelfieAWookies.Core.Selfies.Infrastructures.Data;
@@ -11,6 +13,7 @@ namespace SelfieAWookie.API.UI.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [EnableCors(SecurityMethods.DEFAULT_POLICY_3)]
     public class SelfiesController : ControllerBase
     {
         // IWebHostEnvironment pour accéder au dosssier d'execution de notre machine ou se trouve l'app sur notre pc
@@ -45,6 +48,8 @@ namespace SelfieAWookie.API.UI.Controllers
         //#endregion
         #region public methods
         [HttpGet]
+        [DisableCors]
+      //  [EnableCors(SecurityMethods.DEFAULT_POLICY_3)]
         public IActionResult GetAll([FromQuery]int wookieId = 0)
         {
 
