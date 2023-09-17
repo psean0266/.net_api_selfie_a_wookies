@@ -3,6 +3,7 @@ using SelfieAWookies.Core.Selfies.Domain;
 using SelfieAWookies.Core.Selfies.Infrastructures.Data;
 using SelfieAWookies.Core.Selfies.Infrastructures.Repositories;
 using SelfieAWookie.API.UI.ExtensionMethods;
+using System.Runtime.CompilerServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +22,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SelfiesContext>(Options => Options.UseSqlServer(builder.Configuration.GetValue<string>("SelfiesDataBase")));
 
 builder.Services.AddInjections();
-builder.Services.AddCustomSecurity();
+builder.Services.AddCustomSecurity(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

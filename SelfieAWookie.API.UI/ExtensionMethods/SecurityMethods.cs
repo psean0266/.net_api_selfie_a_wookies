@@ -15,13 +15,13 @@
 
         #region public methods
 
-        public static void AddCustomSecurity( this IServiceCollection services)
+        public static void AddCustomSecurity( this IServiceCollection services, IConfiguration configuration)
         {
             services.AddCors(options =>
             {
                 options.AddPolicy(DEFAULT_POLICY, builder =>
                 {
-                    builder.WithOrigins("http://127.0.0.1:5500")
+                    builder.WithOrigins(configuration["Cors:Origin"])
                             .AllowAnyHeader()
                             .AllowAnyMethod();
 
