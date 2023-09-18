@@ -4,6 +4,9 @@ using SelfieAWookies.Core.Selfies.Infrastructures.Data;
 using SelfieAWookies.Core.Selfies.Infrastructures.Repositories;
 using SelfieAWookie.API.UI.ExtensionMethods;
 using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +23,14 @@ var builder = WebApplication.CreateBuilder(args);
 //});
 
 builder.Services.AddDbContext<SelfiesContext>(Options => Options.UseSqlServer(builder.Configuration.GetValue<string>("SelfiesDataBase")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    options.SignIn.RequireConfirmedEmail = true;
+}).AddEntityFrameworkStores<SelfiesContext>();
+
+
+
 
 builder.Services.AddInjections();
 builder.Services.AddCustomSecurity(builder.Configuration);
@@ -40,6 +51,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseRouting();
