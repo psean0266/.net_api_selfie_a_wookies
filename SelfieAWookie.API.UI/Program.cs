@@ -4,6 +4,9 @@ using SelfieAWookies.Core.Selfies.Infrastructures.Data;
 using SelfieAWookies.Core.Selfies.Infrastructures.Repositories;
 using SelfieAWookie.API.UI.ExtensionMethods;
 using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +24,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SelfiesContext>(Options => Options.UseSqlServer(builder.Configuration.GetValue<string>("SelfiesDataBase")));
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+
+}).AddEntityFrameworkStores<SelfiesContext>();
+
+
+
+
 builder.Services.AddInjections();
 builder.Services.AddCustomSecurity(builder.Configuration);
 
@@ -33,16 +44,20 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{   
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseRouting();
+
+//app.UseRouting();
 app.UseCors(SecurityMethods.DEFAULT_POLICY_2);
 
 app.MapControllers();

@@ -1,3 +1,10 @@
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.csproj.AssemblyReference.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.AssemblyInfoInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.AssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.csproj.CoreCompileInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\appsettings.json
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookie.API.UI.exe
@@ -7,6 +14,10 @@ C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.AP
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookie.API.UI.pdb
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -25,6 +36,8 @@ C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.AP
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -72,13 +85,6 @@ C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.AP
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookies.Core.Selfies.Domain.pdb
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookies.Core.Selfies.Infrastructures.pdb
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfiesAWookies.Core.Framework.pdb
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.csproj.AssemblyReference.cache
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.AssemblyInfoInputs.cache
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.AssemblyInfo.cs
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.csproj.CoreCompileInputs.cache
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\staticwebassets\msbuild.SelfieAWookie.API.UI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.SelfieAWookie.API.UI.props
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SelfieAWookie.API.UI.props
@@ -93,3 +99,6 @@ C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.AP
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.pdb
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.genruntimeconfig.cache
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\obj\Debug\net6.0\ref\SelfieAWookie.API.UI.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookie.API.UI.staticwebassets.runtime.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
