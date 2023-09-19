@@ -26,7 +26,7 @@ builder.Services.AddDbContext<SelfiesContext>(Options => Options.UseSqlServer(bu
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
-    options.SignIn.RequireConfirmedEmail = true;
+
 }).AddEntityFrameworkStores<SelfiesContext>();
 
 
@@ -44,17 +44,20 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{   
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseRouting();
+
+//app.UseRouting();
 app.UseCors(SecurityMethods.DEFAULT_POLICY_2);
 
 app.MapControllers();
