@@ -41,7 +41,7 @@ namespace SelfieAWookie.API.UI.Controllers
             var user = new IdentityUser(dtoUser.Login);
             user.Email = dtoUser.Login;
             user.UserName = dtoUser.Name;
-            var success = await this._userManager.CreateAsync(user);
+            var success = await this._userManager.CreateAsync(user, dtoUser.Password);
 
             if (success.Succeeded)
             {
@@ -52,30 +52,30 @@ namespace SelfieAWookie.API.UI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login([FromBody]AuthenticateUserDto dtoUser)
+        public async Task<IActionResult> Login([FromBody] connectUserDto dtoUser)
         {
             IActionResult result = this.BadRequest();
-             
+
             var user = await this._userManager.FindByEmailAsync(dtoUser.Login);
-            if(user != null)
+            if (user != null)
             {
                 var verif = await this._userManager.CheckPasswordAsync(user, dtoUser.Password);
 
                 if (verif)
                 {
-                    result = this.Ok( new AuthenticateUserDto()
+                    result = this.Ok(new AuthenticateUserDto()
                     {
                         Login = user.Email,
                         Name = user.UserName,
                         Token = this.GenerateJwtToken(user)
                     });
+
                 }
             }
 
 
             return result;
         }
-
         #endregion
 
         #region
