@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using SelfieAWookies.Core.Selfies.Infrastructures.Configurations;
 using System.Linq.Expressions;
 using System.Text;
 
@@ -30,6 +31,10 @@ namespace SelfieAWookie.API.UI.ExtensionMethods
 
         public static void AddCustomAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
+            SecurityOption securityOption = new SecurityOption();
+
+            configuration.GetSection("Jwt").Bind(securityOption);
+
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -38,7 +43,7 @@ namespace SelfieAWookie.API.UI.ExtensionMethods
 
             }).AddJwtBearer(options => {
 
-                string maclef = configuration["Jwt:key"];
+                string maclef = securityOption.key;
                 options.SaveToken = true;
                 options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
                 {
@@ -53,11 +58,15 @@ namespace SelfieAWookie.API.UI.ExtensionMethods
 
         public static void AddCustomCors(this IServiceCollection services, IConfiguration configuration)
         {
+            CorsOption corsOption = new CorsOption();
+
+            configuration.GetSection("Cors").Bind(corsOption);
             services.AddCors(options =>
             {
                 options.AddPolicy(DEFAULT_POLICY, builder =>
                 {
-                    builder.WithOrigins(configuration["Cors:Origin"])
+                  //  builder.WithOrigins(configuration["Cors:Origin"])
+                      builder.WithOrigins(corsOption.Origin)
                             .AllowAnyHeader()
                             .AllowAnyMethod();
 
