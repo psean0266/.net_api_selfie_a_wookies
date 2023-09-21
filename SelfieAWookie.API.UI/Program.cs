@@ -30,8 +30,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 }).AddEntityFrameworkStores<SelfiesContext>();
 
 
-
-
+builder.Services.AddCustomOption(builder.Configuration);
 builder.Services.AddInjections();
 builder.Services.AddCustomSecurity(builder.Configuration);
 
@@ -45,9 +44,12 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {   
-    app.UseSwagger();
-    app.UseSwaggerUI();
+
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 
