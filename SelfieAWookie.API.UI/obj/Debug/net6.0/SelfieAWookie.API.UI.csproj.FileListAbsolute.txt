@@ -102,3 +102,4 @@ C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.AP
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookie.API.UI.staticwebassets.runtime.json
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\SelfieAWookie.API.UI\SelfieAWookie.API.UI\bin\Debug\net6.0\appsettings.Staging.json
